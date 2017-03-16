@@ -6,14 +6,14 @@
 package despertador;
 
 /**
- * visualizaciones
+ * methods to show the hour
  *
  * @author acomesanavila
  */
 public class Display {
 
     /**
-     * retorna el valor de hora inicial
+     * return the inicial value of the hour
      *
      * @return
      */
@@ -22,7 +22,7 @@ public class Display {
     }
 
     /**
-     * retorna el valor de la hora tras las modificaciones
+     * return the modification of the hour
      *
      * @param hora
      * @return

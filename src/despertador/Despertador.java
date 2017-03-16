@@ -14,7 +14,7 @@ import javax.swing.JOptionPane;
 public class Despertador {
 
     /**
-     * se llaman a los metodos
+     * calling the methods
      *
      * @param args the command line arguments
      */

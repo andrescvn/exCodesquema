@@ -6,7 +6,7 @@
 package despertador;
 
 /**
- * metodos que controlan el uso de la maquina
+ * methods that control how the machine work
  *
  * @author acomesanavila
  */
@@ -14,19 +14,19 @@ public class Maquina {
 
     Display dis = new Display();
     /**
-     * define si la alarma esta activada o no
+     * alarm is on or off
      */
     private boolean alarma = false;
 
     /**
-     * empieza el proceso para poner la hora de la alarma
+     * start the alarms procedure
      */
     public void setAlarma() {
         dis.alarma();
     }
 
     /**
-     * incrementa la hora en 1
+     * increase hour in 1
      *
      * @return
      */
@@ -35,7 +35,7 @@ public class Maquina {
     }
 
     /**
-     * incrementa los minutos en 1
+     * increase min in 1
      *
      * @return
      */
@@ -45,7 +45,7 @@ public class Maquina {
     }
 
     /**
-     * activa o desactiva la alarma
+     * put the alarm on/off
      *
      * @return
      */
@@ -59,8 +59,8 @@ public class Maquina {
     }
 
     /**
-     * retorna la hora de la alarma como un valor string que luego sera
-     * visualizado
+     *
+     * return the hour
      *
      * @param hora
      * @return
