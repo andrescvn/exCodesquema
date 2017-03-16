@@ -26,7 +26,7 @@ public class Maquina {
     }
 
     /**
-     * //incrementa la hora en 1
+     * incrementa la hora en 1
      *
      * @return
      */
