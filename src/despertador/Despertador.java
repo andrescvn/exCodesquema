@@ -27,7 +27,7 @@ public class Despertador {
 
         maq.setAlarma();
         do {
-            op = Integer.parseInt(JOptionPane.showInputDialog("1-incrementar min \n2-incrementar horas \n 3-fin modificar"));
+            op = Integer.parseInt(JOptionPane.showInputDialog("1-incrementar min \n2-incrementar horas \n 3-finalizar"));
             switch (op) {
                 case 1:
                     min = min + maq.incrementarMin();
@@ -44,10 +44,11 @@ public class Despertador {
                     System.out.println(maq.hora(hora + ":" + min));
                     break;
                 }
-                //el usuario activa los botones de incrementarhora/min cambiando la hora    
+                case 3:
+                    maq.setAlarma();//Se activa la alarma  
             }
         } while (op != 3);
-        maq.setAlarma();//Se activa la alarma
+
     }
 
 }
